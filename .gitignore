@@ -1,4 +1,6 @@
 reated by https://www.toptal.com/developers/gitignore/api/python
+gif_output/
+
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 .idea/
 ### Python ###
