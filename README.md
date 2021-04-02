@@ -120,6 +120,15 @@ Use the ``ECBM6040-Project/Notebook-experiment/Generate Video and show the resul
 
 ![gif show](img/result_show.gif)
 ___
+## Inference
+
+you can test LaneNet for any video using test.py (not guarantee performance)
+1. Extract video frame using ffmpeg library(https://www.ffmpeg.org/)
+2. Execute test.py
+```
+python test.py --frame-dir 'path/framedir' --gif-dir 'path/gifdir' --device 'cpu or gpu'
+```
+___
 ## Reference
 [1] Neven, D., De Brabandere, B., Georgoulis, S., Proesmans, M. and Van Gool, L., 2018, June. Towards end-to-end lane 
 detection: an instance segmentation approach. In 2018 IEEE intelligent vehicles symposium (IV) (pp. 286-291). IEEE. 
