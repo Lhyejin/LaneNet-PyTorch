@@ -26,7 +26,9 @@ ___
 * [torchvision](https://pytorch.org/docs/stable/torchvision/index.html#torchvision)
 * [sklearn 0.22.1](https://scikit-learn.org/stable/)
 * [NumPy 1.18.2](https://numpy.org)
-
+```
+pip install -r requirements.txt
+```
 ___
 ## Download and prepare the dataset
 **Download:**
